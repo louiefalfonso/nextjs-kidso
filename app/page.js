@@ -4,6 +4,7 @@ import Footer from '@/components/Footer'
 export default function Home() {
   return (
     <>
+     
     <Header/>
       <main>
         
@@ -1240,6 +1241,7 @@ export default function Home() {
         {/* contact-area-end */}
       </main>
     <Footer/>
+        
   </>
   )
 }

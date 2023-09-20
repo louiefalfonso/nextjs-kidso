@@ -11,6 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
       <meta charSet="utf-8" />
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -26,7 +27,7 @@ export default function RootLayout({ children }) {
       <link rel="stylesheet" href="css/default.css" />
       <link rel="stylesheet" href="css/style.css" />
       <link rel="stylesheet" href="css/responsive.css" />
-
+      </head> 
       <body className={inter.className}>
         {children}
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
