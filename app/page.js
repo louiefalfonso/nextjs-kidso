@@ -1247,11 +1247,10 @@ export default function Home() {
     <Script type="text/javascript" id="hs-script-loader" async defer src="js/popper.min.js"/>
     <Script type="text/javascript" id="hs-script-loader" async defer src="js/bootstrap.min.js"/>
     <Script type="text/javascript" id="hs-script-loader" async defer src="js/slick.min.js"/>
-    <Script type="text/javascript" id="hs-script-loader" async defer src="js/ajax-form.min.js"/>
     <Script type="text/javascript" id="hs-script-loader" async defer src="js/paroller.js"/>
     <Script type="text/javascript" id="hs-script-loader" async defer src="js/wow.min.js"/>
-    <Script type="text/javascript" id="hs-script-loader" async defer src="js_isotope.pkgd.min.js"/>
-    <Script type="text/javascript" id="hs-script-loader" async defer src="js/imagesloaded.min.js"/>
+    <Script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"/>
+    <Script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.js"/>
     <Script type="text/javascript" id="hs-script-loader" async defer src="js/parallax.min.js"/>
     <Script type="text/javascript" id="hs-script-loader" async defer src="js/jquery.waypoints.min.js"/>
     <Script type="text/javascript" id="hs-script-loader" async defer src="js/jquery.counterup.min.js"/>

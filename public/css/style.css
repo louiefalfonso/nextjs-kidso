@@ -3087,24 +3087,8 @@ border-radius: 50%;
 }
  .team-active .slick-dots li.slick-active button {
 }
-.team-active .slick-dots li.slick-active button::before {
-    background: url("../img/bg/active-dote.png");
-    opacity: 1;
-}
-.team-active .slick-dots li button::before {
-    content: "";
-    width: 19px;
-    height: 19px;
-    background: url("../img/bg/dote.png");
-    float: left;
-    position: relative;
-    margin-top: -9px;
-    left: -19px;
-    border-radius: 50%;
-    opacity: .7;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+
+
 
 .team-thumb{
     text-align: center;
@@ -4150,24 +4134,6 @@ line-height: 40px;
     
 }
  .home-blog-active .slick-dots li.slick-active button {
-}
-.home-blog-active .slick-dots li.slick-active button::before {
-    background: url("../img/bg/active-dote.png");
-    opacity: 1;
-}
-.home-blog-active .slick-dots li button::before {
-    content: "";
-    width: 19px;
-    height: 19px;
-    background: url("../img/bg/dote.png");
-    float: left;
-    position: relative;
-    margin-top: -9px;
-    left: -19px;
-    border-radius: 50%;
-    opacity: .7;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 
