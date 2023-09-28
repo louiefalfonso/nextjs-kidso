@@ -1,101 +1,14 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Script from "next/script"
+import SliderArea from '@/components/SliderArea'
 
 export default function Home() {
   return (
     <>
     <Header/>
       <main>
-        
-        <div
-          className="modal fade bs-example-modal-lg search-bg popup1"
-          tabIndex={-1}
-          role="dialog"
-        >
-          <div className="modal-dialog modal-lg" role="document">
-            <div className="modal-content search-popup">
-              <div className="text-center">
-                <a
-                  href="#"
-                  className="close2"
-                  data-dismiss="modal"
-                  aria-label="Close"
-                >
-                  × close
-                </a>
-              </div>
-              <div className="row search-outer">
-                <div className="col-md-11">
-                  <input type="text" placeholder="Search for products..." />
-                </div>
-                <div className="col-md-1 text-right">
-                  <a href="#">
-                    <i className="fa fa-search" aria-hidden="true" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <section id="parallax" className="slider-area slider-four fix p-relative">
-          <div className="slider-shape ss-one layer" data-depth="0.10">
-            <img src="img/bg/slider_shape01.png" alt="shape" />
-          </div>
-          <div className="slider-shape ss-two layer" data-depth="0.30">
-            <img src="img/bg/slider_shape02.png" alt="shape" />
-          </div>
-          <div className="slider-shape ss-three layer" data-depth="0.40">
-            <img src="img/bg/slider_shape03.png" alt="shape" />
-          </div>
-          <div className="slider-active">
-            <div
-              className="single-slider slider-bg d-flex align-items-center"
-              style={{ background: "url(img/slider/slider_img_bg.png) no-repeat" }}
-            >
-              <div
-                className="img-main"
-                data-animation="fadeInLeft"
-                data-delay=".2s"
-              >
-                {" "}
-                <img src="img/slider/main.png" alt="slider-overlay" />
-              </div>
-              <div className="container">
-                <div className="row justify-content-center align-items-center">
-                  <div className="col-lg-6 col-md-6">
-                    <div className="slider-content s-slider-content pt-100">
-                      <h5 data-animation="fadeInUp" data-delay=".4s">
-                        Welcome To Childcare Service
-                      </h5>
-                      <h2 data-animation="fadeInUp" data-delay=".4s">
-                        Get Lifecare For Your kids
-                      </h2>
-                      <p data-animation="fadeInUp" data-delay=".6s">
-                        Quisque eget tortor posuere, aliquet arcu ut, molestie nunc.
-                        Integer malesuada laoreet erat, ut hendrerit magna finibus
-                        ut.
-                      </p>
-                      <div className="slider-btn mt-30">
-                        <a
-                          href="about.html"
-                          className="btn mr-15"
-                          data-animation="fadeInUp"
-                          data-delay=".4s"
-                        >
-                          Explore More
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-6 col-md-6"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        
+      <SliderArea/>
         <div className="brand-area pt-60 pb-60" style={{ background: "#fe4b7b" }}>
           <div className="container-fluid">
             <div className="row brand-active">
@@ -1249,8 +1162,6 @@ export default function Home() {
     <Script type="text/javascript" id="hs-script-loader" async defer src="js/slick.min.js"/>
     <Script type="text/javascript" id="hs-script-loader" async defer src="js/paroller.js"/>
     <Script type="text/javascript" id="hs-script-loader" async defer src="js/wow.min.js"/>
-    <Script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"/>
-    <Script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.js"/>
     <Script type="text/javascript" id="hs-script-loader" async defer src="js/parallax.min.js"/>
     <Script type="text/javascript" id="hs-script-loader" async defer src="js/jquery.waypoints.min.js"/>
     <Script type="text/javascript" id="hs-script-loader" async defer src="js/jquery.counterup.min.js"/>
@@ -1259,6 +1170,8 @@ export default function Home() {
     <Script type="text/javascript" id="hs-script-loader" async defer src="js/jquery.magnific-popup.min.js"/> 
     <Script type="text/javascript" id="hs-script-loader" async defer src="js/parallax-scroll.js"/> 
     <Script type="text/javascript" id="hs-script-loader" async defer src="js/element-in-view.js"/> 
+    <Script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"/>
+    <Script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.js"/>
     <Script type="text/javascript" id="hs-script-loader" async defer src="js/main.js"/>  
   </>
   )
