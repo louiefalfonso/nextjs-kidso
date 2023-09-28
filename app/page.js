@@ -9,11 +9,11 @@ import AboutArea from '@/components/AboutArea'
 export default function Home() {
   return (
     <>
-      <main>
-      <SliderArea/>
-      <BrandArea/>
-      <ServicesArea/>  
-      <AboutArea/>
+    <main>
+    <SliderArea/>
+    <BrandArea/>
+    <ServicesArea/>  
+    <AboutArea/>
         
         <div className="counter-area p-relative">
           <div className="container">
