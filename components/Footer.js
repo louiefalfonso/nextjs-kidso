@@ -51,8 +51,8 @@ const Footer = () => {
                   <li><a href="index.html">Home</a></li>
                   <li><a href="about.html"> About Us</a></li>
                   <li><a href="classes.html"> Classes</a></li>
-                  <li><a href="contact.html"> Contact Us</a></li>
-                  <li><a href="blog.html">Blog </a></li>
+                  <li><a href="contact.html"> Teachers</a></li>
+                  <li><a href="blog.html">Contact</a></li>
                 </ul>
               </div>
             </div>
