@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-const BrandArea = () => {
+export default function BrandArea() {
   return (
     <div className="brand-area pt-60 pb-60" style={{ background: "#fe4b7b" }}>
         <div className="container-fluid">
@@ -43,7 +43,5 @@ const BrandArea = () => {
             </div>
           </div>
     </div>
-  );
-};
-
-export default BrandArea;
+  )
+}
