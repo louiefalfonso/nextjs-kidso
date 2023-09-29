@@ -1,3 +1,6 @@
+import AboutArea from '@/components/AboutArea';
+import CounterArea from '@/components/CounterArea';
+import TestimonialArea from '@/components/TestimonialArea';
 import Link from 'next/link';
 
 export default function aboutus() {
@@ -28,6 +31,9 @@ export default function aboutus() {
 				</div>
 			</div>
 		</div>
+		<AboutArea/>
+		<CounterArea/>
+		<TestimonialArea/>
 
 	</>
 	)
