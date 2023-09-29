@@ -467,8 +467,8 @@ margin-right: 8px;
     
     .mean-container a.meanmenu-reveal {
 margin-top: -46px;
-color: #000;
-border: 1px solid #000;
+color: #fe4b7b;
+border: 1px solid #fe4b7b;
 }
     
     .contact-bg02 {
@@ -759,7 +759,7 @@ border: 1px solid #000;
     display: block;
      height: 3px;
     margin-top: 3px;
-    border-top: 3px solid #000;
+    border-top: 3px solid #fe4b7b;
 }
     .mean-container .mean-nav ul li a {
     border-top: 1px solid rgba(217, 217, 217, 0.5);
@@ -1009,7 +1009,7 @@ box-shadow: 0 0 0 0;
     display: block;
      height: 3px;
     margin-top: 3px;
-    border-top: 3px solid #000;
+    border-top: 3px solid #fe4b7b;
 }
     .mean-container .mean-nav ul li a {
     border-top: 1px solid rgba(217, 217, 217, 0.5);
@@ -1217,8 +1217,8 @@ display: none !important;
     
     .mean-container a.meanmenu-reveal {
     margin-top: -52px;
-color: #000;
-border: 1px solid #000;
+color: #fe4b7b;
+border: 1px solid #fe4b7b;
 }
   
     .copyright-wrap ul{

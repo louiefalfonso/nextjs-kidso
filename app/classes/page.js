@@ -1,8 +1,7 @@
 export default function classes() {
 	return (
 	<>
-		
-			This is the classes page.
+	This is the classes page.
 	</>
 	)
 };

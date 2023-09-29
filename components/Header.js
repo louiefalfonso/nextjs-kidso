@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Header = () => {
   return (
@@ -9,57 +10,19 @@ const Header = () => {
           <div className="row align-items-center">
             <div className="col-xl-2 col-lg-2">
               <div className="logo">
-                <a href="index.html">
-                  <img src="img/logo/logo.png" alt="logo" />
-                </a>
+                <Link href="/"><img src="img/logo/logo.png" alt="logo" /></Link>
               </div>
             </div>
             <div className="col-xl-7 col-lg-7">
               <div className="main-menu text-right text-xl-right">
                 <nav id="mobile-menu">
                   <ul>
-                    <li className="has-sub">
-                      <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                      <a href="about.html">About Us</a>
-                    </li>
-                    <li className="has-sub">
-                      <a href="classes.html">Classes</a>
-                      <ul>
-                        <li>
-                          <a href="classes.html">Classes</a>
-                        </li>
-                        <li>
-                          <a href="class-single.html">Class Details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="has-sub">
-                      <a href="#">Pages</a>
-                      <ul>
-                        <li>
-                          <a href="teachers.html">Teachers</a>
-                        </li>
-                        <li>
-                          <a href="teacher-single.html">Teacher Details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="has-sub">
-                      <a href="blog.html">Blog</a>
-                      <ul>
-                        <li>
-                          <a href="blog.html">Blog</a>
-                        </li>
-                        <li>
-                          <a href="blog-details.html">Blog Details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="contact.html">Contact</a>
-                    </li>
+                    <li><Link href="/" >Home</Link></li>
+                    <li><Link href="/aboutus" >About Us</Link></li>
+                    <li><Link href="/classes" >Classes</Link></li>
+                    <li><Link href="/teachers" >Teachers</Link></li> 
+                    <li><Link href="/services" >Services</Link></li> 
+                    <li><Link href="/contact" >Contact Us</Link></li> 
                   </ul>
                 </nav>
               </div>
@@ -69,9 +32,7 @@ const Header = () => {
                 <ul>
                   <li>
                     <div className="header-btn second-header-btn">
-                      <a href="contact.html" className="btn">
-                        Get Started
-                      </a>
+                      <Link href="/contact" className="btn" >Get Started</Link>
                     </div>
                   </li>
                 </ul>
