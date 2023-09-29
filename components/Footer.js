@@ -48,11 +48,12 @@ const Footer = () => {
               </div>
               <div className="footer-link">
                 <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="about.html"> About Us</a></li>
-                  <li><a href="classes.html"> Classes</a></li>
-                  <li><a href="contact.html"> Teachers</a></li>
-                  <li><a href="blog.html">Contact</a></li>
+                  <li><Link href="/" >Home</Link></li>
+                  <li><Link href="/aboutus" >About Us</Link></li>
+                  <li><Link href="/classes" >Classes</Link></li>
+                  <li><Link href="/teachers" >Teachers</Link></li> 
+                  <li><Link href="/services" >Services</Link></li> 
+                  <li><Link href="/contact" >Contact Us</Link></li> 
                 </ul>
               </div>
             </div>
@@ -67,24 +68,21 @@ const Footer = () => {
                   <li>
                     <i className="icon fal fa-map-marker-check" />
                     <span>
-                      1247/Plot No. 39, 15th Phase,
-                      Colony, Hyderabad
+                      1247/Plot No. 39, 15th Phase, Colony, Hyderabad
                     </span>
                   </li>
                   <li>
                     <i className="icon fal fa-phone" />
                     <span>
-                      1800-121-3637
-                      <br />
-                      +91-7052-101-786
+                      1800-121-3637<br />+91-7052-101-786
                     </span>
                   </li>
                   <li>
                     <i className="icon fal fa-envelope" />
                     <span>
-                      <a href="mailto:info@example.com">info@example.com</a>
+                      <a href="#">info@kidsocare.com</a>
                       <br />
-                      <a href="mailto:help@example.com">help@example.com</a>
+                      <a href="#">help@kidsocare.com</a>
                     </span>
                   </li>
                 </ul>
@@ -132,7 +130,7 @@ const Footer = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-12">
-            Copyright © 2022 Kidso All rights reserved.
+            Copyright © 2023 Kidso - Modern Kindergarten Baby Care All rights reserved.
           </div>
         </div>
       </div>
