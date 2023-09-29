@@ -67,7 +67,7 @@ const Footer = () => {
                   <li>
                     <i className="icon fal fa-map-marker-check" />
                     <span>
-                      1247/Plot No. 39, 15th Phase, <br />
+                      1247/Plot No. 39, 15th Phase,
                       Colony, Hyderabad
                     </span>
                   </li>
