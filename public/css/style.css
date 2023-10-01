@@ -3527,7 +3527,7 @@ border-radius: 10px;
 }
 .class-content .schedule li {
  float: left;
-  padding: 0 15px;
+  padding: 0 14px;
   border-right: 1px solid #ccc;
 }
 .class-content span.class-price {

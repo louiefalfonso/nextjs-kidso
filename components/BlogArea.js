@@ -60,7 +60,7 @@ export default function BlogArea() {
                 <div className="single-post2 mb-30">
                   <div className="blog-thumb2">
                     <a href="blog-details.html">
-                      <img src="img/blog/inner_b2.jpg" alt="img" />
+                      <img src="img/blog/inner_b2.jpeg" alt="img" />
                     </a>
                   </div>
                   <div className="blog-content2">
@@ -97,7 +97,7 @@ export default function BlogArea() {
                 <div className="single-post2 mb-30">
                   <div className="blog-thumb2">
                     <a href="blog-details.html">
-                      <img src="img/blog/inner_b3.jpg" alt="img" />
+                      <img src="img/blog/inner_b3.jpeg" alt="img" />
                     </a>
                   </div>
                   <div className="blog-content2">
