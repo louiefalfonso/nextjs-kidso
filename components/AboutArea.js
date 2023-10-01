@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 
 export default function AboutArea() {
   return (
@@ -46,9 +47,7 @@ export default function AboutArea() {
                     ipsum primis in faucibus.{" "}
                   </p>
                   <div className="slider-btn mt-15">
-                    <a href="about.html" className="btn">
-                      Explore More
-                    </a>
+                    <Link href="/aboutus" className="btn">Explore More</Link>
                   </div>
                 </div>
               </div>

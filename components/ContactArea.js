@@ -82,7 +82,7 @@ export default function ContactArea() {
                             data-animation="fadeInRight"
                             data-delay=".8s"
                           >
-                            Submint Now
+                            Submit Now
                           </button>
                         </div>
                       </div>

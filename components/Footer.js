@@ -29,15 +29,9 @@ const Footer = () => {
                 </p>
               </div>
               <div className="footer-social">
-                <a href="#">
-                  <i className="fab fa-facebook-f" />
-                </a>
-                <a href="#">
-                  <i className="fab fa-twitter" />
-                </a>
-                <a href="#">
-                  <i className="fab fa-instagram" />
-                </a>
+                <Link href="https://www.facebook.com/"><i className="fab fa-facebook-f" /></Link>
+                <Link href="https://twitter.com/"><i className="fab fa-twitter" /></Link>
+                <Link href="https://www.instagram.com/"><i className="fab fa-instagram" /></Link>
               </div>
             </div>
           </div>
@@ -92,7 +86,7 @@ const Footer = () => {
           <div className="col-xl-3 col-lg-3 col-sm-6">
             <div className="footer-widget mb-30">
               <div className="f-widget-title mb-15">
-                <h2>Subscribe Now !</h2>
+                <h2>Subscribe Now!</h2>
               </div>
               <div className="footer-link">
                 <div className="newslater-area">
@@ -117,7 +111,6 @@ const Footer = () => {
                         <i className="far fa-chevron-right" />
                       </button>
                     </div>
-                    {/* /Form-email */}
                   </form>
                 </div>
               </div>

@@ -28,7 +28,6 @@ export default function Home() {
     <ContactArea/>
     </main>
 
-    <Script type="text/javascript" id="hs-script-loader" async defer src="js/bootstrap.min.js"/>
   </>
   )
 }
