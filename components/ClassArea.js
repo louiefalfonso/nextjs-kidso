@@ -60,7 +60,7 @@ export default function ClassArea() {
                 <div className="class-item mb-30">
                   <div className="class-img">
                     <div className="class-img-outer">
-                      <img src="img/class/class-2.jpg" alt="class image" />
+                      <img src="img/class/class-2.jpeg" alt="class image" />
                     </div>
                   </div>
                   <div className="class-content">
@@ -91,7 +91,7 @@ export default function ClassArea() {
                 <div className="class-item mb-30">
                   <div className="class-img">
                     <div className="class-img-outer">
-                      <img src="img/class/class-3.jpg" alt="class image" />
+                      <img src="img/class/class-3.jpeg" alt="class image" />
                     </div>
                   </div>
                   <div className="class-content">
@@ -122,7 +122,7 @@ export default function ClassArea() {
                 <div className="class-item mb-30">
                   <div className="class-img">
                     <div className="class-img-outer">
-                      <img src="img/class/class-4.jpg" alt="class image" />
+                      <img src="img/class/class-4.jpeg" alt="class image" />
                     </div>
                   </div>
                   <div className="class-content">
@@ -153,7 +153,7 @@ export default function ClassArea() {
                 <div className="class-item mb-30">
                   <div className="class-img">
                     <div className="class-img-outer">
-                      <img src="img/class/class-5.jpg" alt="class image" />
+                      <img src="img/class/class-5.jpeg" alt="class image" />
                     </div>
                   </div>
                   <div className="class-content">
@@ -184,7 +184,7 @@ export default function ClassArea() {
                 <div className="class-item mb-30">
                   <div className="class-img">
                     <div className="class-img-outer">
-                      <img src="img/class/class-6.jpg" alt="class image" />
+                      <img src="img/class/class-6.jpeg" alt="class image" />
                     </div>
                   </div>
                   <div className="class-content">
