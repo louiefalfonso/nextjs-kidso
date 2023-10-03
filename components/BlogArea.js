@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 
 export default function BlogArea() {
   return (
@@ -22,15 +23,13 @@ export default function BlogArea() {
               <div className="col-lg-4 col-md-6">
                 <div className="single-post2 mb-30">
                   <div className="blog-thumb2">
-                    <a href="blog-details.html">
-                      <img src="img/blog/inner_b1.jpg" alt="img" />
-                    </a>
+                    <Link href="/blogpost" ><img src="img/blog/inner_b1.jpg" alt="img" /></Link>
                   </div>
                   <div className="blog-content2">
                     <h4>
-                      <a href="blog-details.html">
+                      <Link href="/blogpost" >
                         Nam at velit vel enim placerat fringilla.
-                      </a>
+                      </Link>
                     </h4>
                     <p>
                       Curabitur sagittis libero tincidunt tempor finibus. Mauris at
@@ -59,15 +58,13 @@ export default function BlogArea() {
               <div className="col-lg-4 col-md-6">
                 <div className="single-post2 mb-30">
                   <div className="blog-thumb2">
-                    <a href="blog-details.html">
-                      <img src="img/blog/inner_b2.jpeg" alt="img" />
-                    </a>
+                    <Link href="/blogpost" ><img src="img/blog/inner_b2.jpeg" alt="img" /></Link>
                   </div>
                   <div className="blog-content2">
                     <h4>
-                      <a href="blog-details.html">
+                      <Link href="/blogpost" >
                         Tem at velit vel enim placerat fringilla.
-                      </a>
+                      </Link>
                     </h4>
                     <p>
                       Curabitur sagittis libero tincidunt tempor finibus. Mauris at
@@ -96,15 +93,15 @@ export default function BlogArea() {
               <div className="col-lg-4 col-md-6">
                 <div className="single-post2 mb-30">
                   <div className="blog-thumb2">
-                    <a href="blog-details.html">
+                    <Link href="/blogpost" >
                       <img src="img/blog/inner_b3.jpeg" alt="img" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="blog-content2">
                     <h4>
-                      <a href="blog-details.html">
+                      <Link href="/blogpost" >
                         Sam at velit vel enim placerat fringilla.
-                      </a>
+                      </Link>
                     </h4>
                     <p>
                       Curabitur sagittis libero tincidunt tempor finibus. Mauris at
