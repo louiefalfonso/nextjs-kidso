@@ -56,7 +56,8 @@ export default function RootLayout({ children }) {
     <Script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"/>
     <Script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.js"/>
     <Script type="text/javascript" id="hs-script-loader" async defer src="js/main.js"/>  
-      </body>
+    
+    </body>
     </html>
   )
 }
