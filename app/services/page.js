@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
+import BrandArea from '@/components/BrandArea';
 
 export default function services() {
   return (
@@ -146,6 +147,7 @@ export default function services() {
           </div>
         </div>
 		  </div>
+      <BrandArea/>
     </>
   )
 }
