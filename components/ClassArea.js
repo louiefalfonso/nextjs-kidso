@@ -1,4 +1,6 @@
 import React from 'react'
+import Link from 'next/link';
+
 
 export default function ClassArea() {
   return (
@@ -34,7 +36,7 @@ export default function ClassArea() {
                   </div>
                   <div className="class-content">
                     <h4 className="title">
-                      <a href="class-single.html">Language Class</a>
+                      <Link href="/classes">Language Class</Link>
                     </h4>
                     <p>
                       Curabitur dignissim at leo sit amet facilisis. Etiam molestie
@@ -65,7 +67,7 @@ export default function ClassArea() {
                   </div>
                   <div className="class-content">
                     <h4 className="title">
-                      <a href="class-single.html">Drawing Class</a>
+                      <Link href="/classes">Drawing Class</Link>
                     </h4>
                     <p>
                       Curabitur dignissim at leo sit amet facilisis. Etiam molestie
@@ -96,7 +98,7 @@ export default function ClassArea() {
                   </div>
                   <div className="class-content">
                     <h4 className="title">
-                      <a href="class-single.html">Mathematics Class</a>
+                      <Link href="/classes">Mathematics Class</Link>
                     </h4>
                     <p>
                       Curabitur dignissim at leo sit amet facilisis. Etiam molestie
@@ -127,7 +129,7 @@ export default function ClassArea() {
                   </div>
                   <div className="class-content">
                     <h4 className="title">
-                      <a href="class-single.html">Sports Class</a>
+                      <Link href="/classes">Sports Class</Link>
                     </h4>
                     <p>
                       Curabitur dignissim at leo sit amet facilisis. Etiam molestie
@@ -158,7 +160,7 @@ export default function ClassArea() {
                   </div>
                   <div className="class-content">
                     <h4 className="title">
-                      <a href="class-single.html">Knowlage Class</a>
+                      <Link href="/classes">Knowledge Class</Link>
                     </h4>
                     <p>
                       Curabitur dignissim at leo sit amet facilisis. Etiam molestie
@@ -189,7 +191,7 @@ export default function ClassArea() {
                   </div>
                   <div className="class-content">
                     <h4 className="title">
-                      <a href="class-single.html">Science Class</a>
+                      <Link href="/classes">Science Class</Link>
                     </h4>
                     <p>
                       Curabitur dignissim at leo sit amet facilisis. Etiam molestie

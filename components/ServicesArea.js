@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const ServicesArea = () => {
   return (
@@ -32,7 +33,7 @@ const ServicesArea = () => {
                         Get Your Best Care eu lacinia magna. Nullam vehicula
                         accumsan neque, eget congue tellus cursus quis.
                       </p>
-                      <a href="services-detail.html">Read More</a>
+                      <Link href="/services">Read More</Link>
                     </div>
                   </div>
                 </div>
@@ -50,7 +51,7 @@ const ServicesArea = () => {
                         Get Your Best Care eu lacinia magna. Nullam vehicula
                         accumsan neque, eget congue tellus cursus quis.
                       </p>
-                      <a href="services-detail.html">Read More</a>
+                      <Link href="/services">Read More</Link>
                     </div>
                   </div>
                 </div>
@@ -68,7 +69,7 @@ const ServicesArea = () => {
                         Get Your Best Care eu lacinia magna. Nullam vehicula
                         accumsan neque, eget congue tellus cursus quis.
                       </p>
-                      <a href="services-detail.html">Read More</a>
+                      <Link href="/services">Read More</Link>
                     </div>
                   </div>
                 </div>
