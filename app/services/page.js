@@ -42,22 +42,22 @@ export default function services() {
                   <a href="services-detail.html">All Services</a>
                   </li>
                   <li className="active">
-                  <a href="service-detail.html">Install &amp; Configure</a>
+                  <a href="service-detail.html">Nanny/Home Childcarers</a>
                   </li>
                   <li>
-                  <a href="services-detail.html">Repair &amp; Service</a>
+                  <a href="services-detail.html">Day Nurseries</a>
                   </li>
                   <li>
-                  <a href="services-detail.html">Maintenance</a>
+                  <a href="services-detail.html">Private Nursery Schools</a>
                   </li>
                   <li>
-                  <a href="services-detail.html">Video Verification</a>
+                  <a href="services-detail.html">Maintained Nursery Schools</a>
                   </li>
                   <li>
-                  <a href="services-detail.html">Video Surveillence</a>
+                  <a href="services-detail.html">Pre-schools and playgroups</a>
                   </li>
                   <li>
-                  <a href="services-detail.html">Interactive Security</a>
+                  <a href="services-detail.html">Independent Schools</a>
                   </li>
                 </ul>
                 </div>

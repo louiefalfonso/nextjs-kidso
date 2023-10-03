@@ -34,7 +34,7 @@ export default function ClassArea() {
                   </div>
                   <div className="class-content">
                     <h4 className="title">
-                      <a href="class-single.html">Languge Class</a>
+                      <a href="class-single.html">Language Class</a>
                     </h4>
                     <p>
                       Curabitur dignissim at leo sit amet facilisis. Etiam molestie

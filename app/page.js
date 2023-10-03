@@ -27,9 +27,6 @@ export default function Home() {
     <BlogArea/>
     <ContactArea/>
     </main>
-
-    
-
   </>
   )
 }
