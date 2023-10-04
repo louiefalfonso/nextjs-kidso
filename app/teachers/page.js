@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link';
-import TeamArea from '@/components/TeamArea';
 import BrandArea from '@/components/BrandArea';
 import TeamArea2 from '@/components/TeamArea2';
 
