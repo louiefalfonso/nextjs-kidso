@@ -849,9 +849,13 @@ z-index: 9;
     color:#12265a;
     font-weight: 700;
 }
+.header-three .main-menu ul li a.active{
+    color: #fe4b7b !important;
+}
 .header-three .main-menu .sub-menu li a,.menu .children li a {
     color: #4f4f4f !important;
 }
+
 .header-three .main-menu .sub-menu li a:hover,.menu .children li a:hover{
     color: #fe4b7b !important;
 }

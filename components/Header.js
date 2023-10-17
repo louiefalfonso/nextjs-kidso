@@ -1,7 +1,12 @@
+"use client"; 
+
 import React from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const Header = () => {
+  const pathname = usePathname();
+
   return (
     <header className="header-area header-three">
     <div id="header-sticky" className="menu-area">
@@ -17,12 +22,12 @@ const Header = () => {
               <div className="main-menu text-right text-xl-right">
                 <nav id="mobile-menu">
                   <ul>
-                    <li><Link href="/" >Home</Link></li>
-                    <li><Link href="/aboutus" >About Us</Link></li>
-                    <li><Link href="/classes" >Classes</Link></li>
-                    <li><Link href="/teachers" >Teachers</Link></li> 
-                    <li><Link href="/services" >Services</Link></li> 
-                    <li><Link href="/contact" >Contact Us</Link></li> 
+                    <li><Link href="/" passHref className={pathname == "/" ? "active" : ""} >Home</Link></li>
+                    <li><Link href="/aboutus" passHref className={pathname == "/aboutus" ? "active" : ""} >About Us</Link></li>
+                    <li><Link href="/classes" passHref className={pathname == "/classes" ? "active" : ""}>Classes</Link></li>
+                    <li><Link href="/teachers" passHref className={pathname == "/teachers" ? "active" : ""}>Teachers</Link></li>
+                    <li><Link href="/services" passHref className={pathname == "/services" ? "active" : ""}>Services</Link></li>
+                    <li><Link href="/contact" passHref className={pathname == "/contact" ? "active" : ""}>Contact Us</Link></li>
                   </ul>
                 </nav>
               </div>
